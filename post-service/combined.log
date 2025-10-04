@@ -1,0 +1,2 @@
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-04T16:52:56.755Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-04T16:52:58.118Z"}
