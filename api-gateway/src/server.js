@@ -8,6 +8,7 @@ const {RedisStore} = require('rate-limit-redis')
 const logger = require('./utils/logger')
 const proxy = require('express-http-proxy')
 const errorHandler = require('./middleware/errorHandler')
+const { auth } = require('./middleware/auth')
 
 const app = express();
 const PORT = process.env.PORT || 3000
@@ -59,7 +60,7 @@ const proxyOptions = {
     }
 }
 
-//setting up proxy for our identity service
+//setting up proxy for our identity service (replacing v1 with api)
 app.use('/v1/auth' , proxy(process.env.IDENTITY_SERVICE_URL , {
     ...proxyOptions,  //Proxies it to IDENTITY_SERVICE_URL (e.g., http://localhost:3001) , Incoming: /v1/auth/register , Outgoing: /api/auth/register 
     proxyReqOptDecorator:(proxyReqOpts , srcReq)=>{ //modifies request before forwarding (e.g., ensure JSON headers).
@@ -72,10 +73,27 @@ app.use('/v1/auth' , proxy(process.env.IDENTITY_SERVICE_URL , {
     }
 }))
 
+
+//setting up proxy for post service
+app.use('/v1/posts' ,auth ,  proxy(process.env.POST_SERVICE_URL , {
+    ...proxyOptions,
+    proxyReqOptDecorator:(proxyReqOpts , srcReq)=>{
+        proxyReqOpts.headers["Content-Type"] = "application/json";
+        proxyReqOpts.headers['x-user-id'] = srcReq.user.userId; //So the Post Service knows which user made the request, without decoding the JWT again.
+        return proxyReqOpts
+    },
+    userResDecorator:(proxyRes, proxyResData , userReq , userRes)=>{ //modifies/logs the response before sending back to client.
+        logger.info(`Response received from Post Service:${proxyRes.statusCode}`)
+        return proxyResData;
+    }
+
+}))
+
 app.use(errorHandler)
 
 app.listen(PORT , ()=>{
     logger.info(`Api Gateway is running at PORT:${PORT}`)
     logger.info(`Identity Service is running at PORT:${process.env.IDENTITY_SERVICE_URL}`)
+    logger.info(`Post Service is running at PORT:${process.env.POST_SERVICE_URL}`)
     logger.info(`Redis URL:${process.env.REDIS_URL}`)
 })
