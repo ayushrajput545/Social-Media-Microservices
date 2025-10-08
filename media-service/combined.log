@@ -1,1 +1,2 @@
 {"level":"info","message":"Media Service is Running at PORT:3003","service":"media-service","timestamp":"2025-10-08T18:17:54.926Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"media-service","timestamp":"2025-10-08T18:17:57.175Z"}

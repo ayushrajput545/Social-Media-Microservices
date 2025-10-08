@@ -89,11 +89,36 @@ app.use('/v1/posts' ,auth ,  proxy(process.env.POST_SERVICE_URL , {
 
 }))
 
+// setting up proxy for media service
+app.use('/v1/media' , auth , proxy(process.env.MEDIA_SERVICE_URL , {
+    ...proxyOptions,
+    proxyReqOptDecorator:(proxyReqOpts , srcReq)=>{
+        proxyReqOpts.headers['x-user-id'] = srcReq.user.userId;
+        /*
+        ✅ Ensure the Content-Type is correctly set:
+        - If the incoming request is *NOT* a file upload (`multipart/form-data`),
+          then force the Content-Type to `application/json`.
+        - This avoids corrupting file uploads by interfering with form data boundaries.
+      */
+        if(!srcReq.headers['content-type'].startsWith('multipart/form-data')){
+            proxyReqOpts.headers["Content-Type"] = "application/json";
+        }
+        return proxyReqOpts
+    },
+    userResDecorator:(proxyRes, proxyResData , userReq , userRes)=>{ //modifies/logs the response before sending back to client.
+        logger.info(`Response received from media Service:${proxyRes.statusCode}`)
+        return proxyResData;
+    },
+    parseReqBody:false  //Without parseReqBody: false, the proxy would:Try to parse photo.jpg as text or JSON → ❌ broken.
+
+}))
+
 app.use(errorHandler)
 
 app.listen(PORT , ()=>{
     logger.info(`Api Gateway is running at PORT:${PORT}`)
     logger.info(`Identity Service is running at PORT:${process.env.IDENTITY_SERVICE_URL}`)
     logger.info(`Post Service is running at PORT:${process.env.POST_SERVICE_URL}`)
+    logger.info(`Media Service is running at PORT:${process.env.MEDIA_SERVICE_URL}`)
     logger.info(`Redis URL:${process.env.REDIS_URL}`)
 })
