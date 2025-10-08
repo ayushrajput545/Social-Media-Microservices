@@ -22,3 +22,507 @@
 {"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T15:59:14.164Z"}
 {"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T15:59:15.434Z"}
 {"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T15:59:17.073Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T15:59:18.204Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T15:59:18.889Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-10-05T15:59:24.875Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-05T15:59:24.876Z"}
+{"level":"info","message":"Create Post Endpoints Hits...","service":"post-service","timestamp":"2025-10-05T15:59:24.879Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:10:26.088Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:10:27.077Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:12:47.700Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:12:48.810Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:12:58.731Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:12:59.364Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:13:02.373Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:13:03.218Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:13:04.934Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:13:05.590Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:13:14.316Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:13:15.316Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:13:20.907Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:13:21.636Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:13:31.910Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:13:32.692Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:13:33.710Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:13:34.392Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:13:43.016Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:13:43.758Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:13:48.828Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:13:49.856Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:14:01.074Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:14:01.912Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:14:08.173Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:14:08.953Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:14:14.581Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:14:16.050Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:15:12.570Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:15:13.547Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:15:16.562Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:15:17.396Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:15:20.829Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:15:21.763Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:15:23.795Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:15:24.450Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:15:25.043Z"}
+{"code":"EREFUSED","hostname":"cluster0.0pyo6hn.mongodb.net","level":"error","message":"Failed to connect db:  queryTxt EREFUSED cluster0.0pyo6hn.mongodb.net","service":"post-service","stack":"Error: queryTxt EREFUSED cluster0.0pyo6hn.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)","syscall":"queryTxt","timestamp":"2025-10-05T16:15:25.057Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:15:34.001Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:15:34.657Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:15:39.090Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:15:39.809Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:15:44.603Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:15:45.337Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:15:49.082Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:15:50.473Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:15:53.639Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:15:54.397Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:15:55.596Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:15:56.273Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:16:22.486Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:16:23.453Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:16:24.280Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:16:25.513Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:16:26.040Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:16:27.077Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:16:29.883Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:16:30.569Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:16:31.169Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:16:32.112Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:16:33.671Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:16:34.314Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:16:35.248Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:16:35.953Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:16:47.844Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:16:48.543Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:17:00.156Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:17:00.875Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:17:01.715Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:17:02.434Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:18:00.405Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:18:01.560Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:18:02.950Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:18:03.712Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:18:08.129Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:18:08.779Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:18:11.319Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:18:12.314Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:18:13.122Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:18:13.807Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:18:15.033Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:18:15.738Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:18:21.175Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:18:21.888Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:18:22.970Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:18:23.715Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:18:25.291Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:18:26.014Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:18:31.168Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:18:31.884Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:18:37.971Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:18:38.729Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:18:46.261Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:18:46.933Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:18:48.817Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:18:49.517Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:19:02.751Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:19:03.680Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:19:14.604Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:19:15.505Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:19:22.514Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:19:23.701Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:19:29.178Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:19:30.146Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:19:49.918Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:19:50.689Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:19:52.304Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:19:53.075Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:20:45.128Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:20:46.046Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:20:50.641Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:20:51.709Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:20:56.643Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:20:57.264Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:21:00.717Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:21:01.744Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:21:02.291Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:21:02.947Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:21:05.089Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:21:06.254Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:21:09.010Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:21:09.813Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:21:11.875Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:21:12.572Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:21:27.380Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:21:28.127Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:21:29.315Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:21:30.047Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:21:37.042Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:21:37.743Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:21:50.789Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:21:51.727Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:21:53.768Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:21:54.530Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:21:56.961Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:21:57.691Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:22:05.270Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:22:06.548Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:22:07.353Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:22:21.484Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:22:22.251Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:23:30.140Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:23:31.169Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:23:33.322Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:23:34.078Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:23:42.453Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:23:43.143Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:23:53.682Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:23:54.380Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:23:56.734Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:23:57.501Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:24:02.838Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:24:03.585Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:24:10.198Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:24:10.952Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:24:19.549Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:24:20.304Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:24:24.395Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:24:25.100Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:24:28.727Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:24:29.401Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:24:31.337Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:24:33.304Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:24:44.444Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:24:45.186Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:24:51.540Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:24:52.261Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:24:55.059Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:24:55.763Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:24:57.254Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:24:57.985Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:25:17.888Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:25:18.662Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:25:38.616Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:25:39.722Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:25:43.405Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:25:44.115Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:27:56.139Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:27:57.098Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:28:02.346Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:28:03.069Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:28:05.779Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:28:06.981Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:28:09.659Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:28:10.486Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:28:20.719Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:28:21.537Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:28:44.506Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:28:45.228Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:28:48.401Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:28:49.180Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:28:58.342Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:28:59.216Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:29:00.387Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:29:01.096Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:29:03.878Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:29:04.703Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:29:16.339Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:29:18.216Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/getall-posts","service":"post-service","timestamp":"2025-10-05T16:30:04.790Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-05T16:30:04.791Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/getall-posts","service":"post-service","timestamp":"2025-10-05T16:30:11.473Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-05T16:30:11.474Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/getall-posts","service":"post-service","timestamp":"2025-10-05T16:32:20.594Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-05T16:32:20.595Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:35:14.680Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:35:15.590Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:35:24.719Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:35:25.395Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/getall-posts","service":"post-service","timestamp":"2025-10-05T16:35:35.332Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-05T16:35:35.333Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:38:44.642Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:38:45.639Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/getall-posts","service":"post-service","timestamp":"2025-10-05T16:38:49.830Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-05T16:38:49.831Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:39:12.324Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:39:13.000Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-10-05T16:42:23.096Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-05T16:42:23.098Z"}
+{"level":"info","message":"Create Post Endpoints Hits...","service":"post-service","timestamp":"2025-10-05T16:42:23.113Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-10-05T16:42:30.404Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-05T16:42:30.405Z"}
+{"level":"info","message":"Create Post Endpoints Hits...","service":"post-service","timestamp":"2025-10-05T16:42:30.409Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:45:38.826Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:45:40.010Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:47:42.036Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:47:43.000Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/getall-posts","service":"post-service","timestamp":"2025-10-05T16:47:47.342Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-05T16:47:47.342Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:49:13.943Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:49:14.796Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T16:49:34.019Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T16:49:34.943Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/getall-posts","service":"post-service","timestamp":"2025-10-05T16:50:47.995Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-05T16:50:47.997Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/getall-posts","service":"post-service","timestamp":"2025-10-05T16:51:31.491Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-05T16:51:31.493Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/getall-posts","service":"post-service","timestamp":"2025-10-05T16:52:09.796Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-05T16:52:09.797Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/getall-posts","service":"post-service","timestamp":"2025-10-05T16:53:10.885Z"}
+{"level":"info","message":"Request Body, undefined","service":"post-service","timestamp":"2025-10-05T16:53:10.886Z"}
+{"level":"warn","message":"Access attempeted without user Id","service":"post-service","timestamp":"2025-10-05T16:53:10.886Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/getall-posts","service":"post-service","timestamp":"2025-10-05T16:53:16.549Z"}
+{"level":"info","message":"Request Body, undefined","service":"post-service","timestamp":"2025-10-05T16:53:16.549Z"}
+{"level":"warn","message":"Access attempeted without user Id","service":"post-service","timestamp":"2025-10-05T16:53:16.550Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/getall-posts","service":"post-service","timestamp":"2025-10-05T16:53:24.315Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-05T16:53:24.316Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/getall-posts","service":"post-service","timestamp":"2025-10-05T16:57:55.775Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-05T16:57:55.776Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/getall-posts","service":"post-service","timestamp":"2025-10-05T16:58:30.233Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-05T16:58:30.234Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:01:07.094Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:01:08.279Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/getall-posts","service":"post-service","timestamp":"2025-10-05T17:01:11.804Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-05T17:01:11.805Z"}
+{"level":"info","message":"Get all Post Endpoint hits...","service":"post-service","timestamp":"2025-10-05T17:01:11.806Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/getall-posts","service":"post-service","timestamp":"2025-10-05T17:01:43.105Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-05T17:01:43.107Z"}
+{"level":"info","message":"Get all Post Endpoint hits...","service":"post-service","timestamp":"2025-10-05T17:01:43.109Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/getall-posts","service":"post-service","timestamp":"2025-10-05T17:01:48.612Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-05T17:01:48.612Z"}
+{"level":"info","message":"Get all Post Endpoint hits...","service":"post-service","timestamp":"2025-10-05T17:01:48.612Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:03:56.775Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:03:57.989Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:04:06.313Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:04:07.087Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:04:39.701Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:04:40.443Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:04:53.143Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:04:53.987Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:04:57.100Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:04:58.111Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:05:02.096Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:05:02.876Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:05:05.562Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:05:06.280Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:05:06.943Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:05:08.052Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:05:09.082Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:05:09.776Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:05:19.555Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:05:20.222Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:05:29.290Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:05:30.001Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:05:35.577Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:05:36.324Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:05:36.932Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:05:37.857Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:05:41.414Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:05:42.140Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:11:11.040Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:11:14.381Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:11:31.465Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:11:32.276Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:12:42.584Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:12:43.584Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:12:47.291Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:12:48.176Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:12:53.553Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:12:54.459Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:13:00.697Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:13:01.529Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:13:06.845Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:13:07.702Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:13:09.420Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:13:10.610Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:13:16.132Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:13:16.932Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:13:21.421Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:13:22.223Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:13:28.768Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:13:29.528Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:13:33.443Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:13:34.206Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:13:39.079Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:13:39.823Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-10-05T17:14:11.392Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-05T17:14:11.393Z"}
+{"level":"info","message":"Create Post Endpoints Hits...","service":"post-service","timestamp":"2025-10-05T17:14:11.396Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/getall-posts","service":"post-service","timestamp":"2025-10-05T17:14:15.398Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-05T17:14:15.398Z"}
+{"level":"info","message":"Get all Post Endpoint hits...","service":"post-service","timestamp":"2025-10-05T17:14:15.399Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/getall-posts","service":"post-service","timestamp":"2025-10-05T17:14:21.129Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-05T17:14:21.130Z"}
+{"level":"info","message":"Get all Post Endpoint hits...","service":"post-service","timestamp":"2025-10-05T17:14:21.130Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:14:47.194Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:14:47.985Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:14:50.588Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:14:51.581Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:16:08.664Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:16:09.795Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:16:10.882Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:16:11.661Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:16:28.067Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:16:29.331Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:16:33.173Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:16:33.858Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:16:37.642Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:16:38.536Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:18:21.711Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:18:22.722Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:18:28.420Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:18:29.598Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:18:30.367Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:18:31.290Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:18:31.967Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:18:34.207Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:18:34.977Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:18:35.614Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:18:36.325Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:18:59.078Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:18:59.804Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:19:00.928Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:19:01.649Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:19:02.960Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:19:03.707Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:19:10.627Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:19:11.440Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:19:13.258Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:19:13.983Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:19:26.422Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:19:27.478Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:19:37.072Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:19:37.918Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:19:39.214Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:19:40.102Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:19:42.680Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:19:43.483Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:19:53.545Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:19:54.321Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:20:10.785Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:20:11.562Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:20:12.637Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:20:13.372Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:20:23.279Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:20:23.957Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:20:38.040Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:20:38.957Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:20:40.072Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:20:41.261Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:20:42.519Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:20:43.227Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:20:49.867Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:20:50.677Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:21:14.224Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:21:14.940Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:21:27.906Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:21:28.598Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:21:32.779Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:21:33.517Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:21:38.070Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:21:38.898Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:21:41.586Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:21:42.330Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:21:46.448Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:21:47.247Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:21:49.865Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:21:50.643Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:21:55.141Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:21:55.901Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:21:57.293Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:21:57.997Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:22:38.014Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:22:38.776Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:22:45.432Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:22:46.410Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:23:00.739Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:23:01.544Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:23:03.242Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:23:04.240Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:23:22.698Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:23:23.659Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:23:29.475Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:23:30.297Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:24:43.676Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:24:44.624Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:24:51.586Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:24:52.338Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:25:07.316Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:25:08.040Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:25:11.934Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:25:12.665Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:26:24.713Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:26:26.025Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:26:31.602Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:26:32.484Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:26:37.011Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:26:37.753Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/get-post?postId=68e2a763276abe38942909aa","service":"post-service","timestamp":"2025-10-05T17:27:55.473Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-05T17:27:55.474Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/get-post?id=68e2a763276abe38942909aa","service":"post-service","timestamp":"2025-10-05T17:28:28.250Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-05T17:28:28.251Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:28:59.564Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:29:00.519Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/get-post?id=68e2a763276abe38942909aa","service":"post-service","timestamp":"2025-10-05T17:29:24.270Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-05T17:29:24.273Z"}
+{"kind":"ObjectId","level":"error","message":"Error Occured while fetching Posts Cast to ObjectId failed for value \"get-post\" (type string) at path \"_id\" for model \"Post\"","path":"_id","reason":{},"service":"post-service","stack":"CastError: Cast to ObjectId failed for value \"get-post\" (type string) at path \"_id\" for model \"Post\"\n    at SchemaObjectId.cast (C:\\Users\\rajpu\\Desktop\\Social-Media-Microservices\\post-service\\node_modules\\mongoose\\lib\\schema\\objectId.js:251:11)\n    at SchemaType.applySetters (C:\\Users\\rajpu\\Desktop\\Social-Media-Microservices\\post-service\\node_modules\\mongoose\\lib\\schemaType.js:1259:12)\n    at SchemaType.castForQuery (C:\\Users\\rajpu\\Desktop\\Social-Media-Microservices\\post-service\\node_modules\\mongoose\\lib\\schemaType.js:1695:17)\n    at cast (C:\\Users\\rajpu\\Desktop\\Social-Media-Microservices\\post-service\\node_modules\\mongoose\\lib\\cast.js:390:32)\n    at Query.cast (C:\\Users\\rajpu\\Desktop\\Social-Media-Microservices\\post-service\\node_modules\\mongoose\\lib\\query.js:5060:12)\n    at Query._castConditions (C:\\Users\\rajpu\\Desktop\\Social-Media-Microservices\\post-service\\node_modules\\mongoose\\lib\\query.js:2374:10)\n    at model.Query._findOne (C:\\Users\\rajpu\\Desktop\\Social-Media-Microservices\\post-service\\node_modules\\mongoose\\lib\\query.js:2697:8)\n    at model.Query.exec (C:\\Users\\rajpu\\Desktop\\Social-Media-Microservices\\post-service\\node_modules\\mongoose\\lib\\query.js:4627:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async exports.getPost (C:\\Users\\rajpu\\Desktop\\Social-Media-Microservices\\post-service\\src\\controllers\\post-controller.js:111:22)","stringValue":"\"get-post\"","timestamp":"2025-10-05T17:29:24.298Z","value":"get-post","valueType":"string"}
+{"level":"info","message":"Recieved GET request to /api/posts/68dc167eb994c9ac200bdfbf","service":"post-service","timestamp":"2025-10-05T17:29:48.878Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-05T17:29:48.879Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/68e29ff6c8a464c8335be9fc","service":"post-service","timestamp":"2025-10-05T17:30:48.163Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-05T17:30:48.164Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/68e29ff6c8a464c8335be9fc","service":"post-service","timestamp":"2025-10-05T17:30:58.784Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-05T17:30:58.785Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/68e29ff6c8a464c8335be9fc","service":"post-service","timestamp":"2025-10-05T17:31:00.742Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-05T17:31:00.743Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/68e29ff6c8a464c8335be9fc","service":"post-service","timestamp":"2025-10-05T17:31:01.779Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-05T17:31:01.780Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/68e29ff6c8a464c8335be9fc","service":"post-service","timestamp":"2025-10-05T17:31:02.739Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-05T17:31:02.739Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/68e29ff6c8a464c8335be9fc","service":"post-service","timestamp":"2025-10-05T17:31:03.827Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-05T17:31:03.827Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-05T17:55:47.182Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-05T17:55:48.423Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-07T15:52:07.464Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-07T15:52:08.570Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-07T15:52:21.076Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-07T15:52:21.753Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-07T15:52:37.779Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-07T15:52:38.543Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-07T15:52:53.426Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-07T15:52:54.137Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-07T15:52:57.394Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-07T15:52:58.035Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-07T15:53:07.002Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-07T15:53:07.776Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-07T15:53:15.650Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-07T15:53:16.411Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-07T15:53:17.900Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-07T15:53:18.769Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-07T15:53:51.023Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-07T15:53:51.932Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-07T15:53:55.799Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-07T15:53:56.434Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-07T15:53:58.651Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-07T15:53:59.348Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-07T15:54:01.967Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-07T15:54:02.635Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-07T16:04:21.931Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-07T16:04:23.029Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-07T16:05:13.269Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-07T16:05:14.134Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/68e29ff6c8a464c8335be9fc","service":"post-service","timestamp":"2025-10-07T16:07:37.892Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-07T16:07:37.894Z"}
+{"level":"info","message":"Recieved DELETE request to /api/posts/68e29ff6c8a464c8335be9fc","service":"post-service","timestamp":"2025-10-07T16:07:56.100Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-07T16:07:56.101Z"}
+{"level":"info","message":"Delete endpoint hits...","service":"post-service","timestamp":"2025-10-07T16:07:56.105Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/68e29ff6c8a464c8335be9fc","service":"post-service","timestamp":"2025-10-07T16:08:16.509Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-07T16:08:16.510Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/getall-posts","service":"post-service","timestamp":"2025-10-07T16:08:35.262Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-07T16:08:35.263Z"}
+{"level":"info","message":"Get all Post Endpoint hits...","service":"post-service","timestamp":"2025-10-07T16:08:35.266Z"}
+{"level":"info","message":"Recieved DELETE request to /api/posts/68e2a763276abe38942909aa","service":"post-service","timestamp":"2025-10-07T16:08:58.206Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-07T16:08:58.206Z"}
+{"level":"info","message":"Delete endpoint hits...","service":"post-service","timestamp":"2025-10-07T16:08:58.210Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/getall-posts","service":"post-service","timestamp":"2025-10-07T16:09:03.341Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-07T16:09:03.342Z"}
+{"level":"info","message":"Get all Post Endpoint hits...","service":"post-service","timestamp":"2025-10-07T16:09:03.343Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-07T18:06:06.066Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-07T18:06:07.065Z"}

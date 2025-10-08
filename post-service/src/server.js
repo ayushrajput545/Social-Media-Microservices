@@ -13,6 +13,8 @@ const logger = require('./utils/logger')
 const app = express();
 const PORT = process.env.PORT || 3002
 const redisClient = new Redis(process.env.REDIS_URL)
+redisClient.on("connect", () => console.log("Redis connected ✅"));
+redisClient.on("error", (err) => console.error("Redis error ❌:", err.message));
 
 //db connect
 dbConnect();
