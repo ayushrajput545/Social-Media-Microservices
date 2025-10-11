@@ -122,3 +122,24 @@
 {"level":"info","message":"Identity Service is Running at PORT:3001","service":"identity-service","timestamp":"2025-10-07T18:06:06.126Z"}
 {"level":"info","message":"Connect to redis","service":"identity-service","timestamp":"2025-10-07T18:06:06.136Z"}
 {"level":"info","message":"DB CONNECTION SUCESSFULL","service":"identity-service","timestamp":"2025-10-07T18:06:07.392Z"}
+{"level":"info","message":"Identity Service is Running at PORT:3001","service":"identity-service","timestamp":"2025-10-08T18:41:35.843Z"}
+{"level":"info","message":"Connect to redis","service":"identity-service","timestamp":"2025-10-08T18:41:35.850Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"identity-service","timestamp":"2025-10-08T18:41:38.933Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/login","service":"identity-service","timestamp":"2025-10-08T18:41:39.570Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"identity-service","timestamp":"2025-10-08T18:41:39.571Z"}
+{"level":"info","message":"Login endpoint hits...","service":"identity-service","timestamp":"2025-10-08T18:41:39.573Z"}
+{"level":"info","message":"Identity Service is Running at PORT:3001","service":"identity-service","timestamp":"2025-10-08T19:02:18.763Z"}
+{"level":"info","message":"Connect to redis","service":"identity-service","timestamp":"2025-10-08T19:02:18.769Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"identity-service","timestamp":"2025-10-08T19:02:21.074Z"}
+{"level":"info","message":"Identity Service is Running at PORT:3001","service":"identity-service","timestamp":"2025-10-10T16:53:28.178Z"}
+{"level":"info","message":"Connect to redis","service":"identity-service","timestamp":"2025-10-10T16:53:28.185Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"identity-service","timestamp":"2025-10-10T16:53:29.129Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/login","service":"identity-service","timestamp":"2025-10-10T16:59:49.854Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"identity-service","timestamp":"2025-10-10T16:59:49.855Z"}
+{"level":"info","message":"Login endpoint hits...","service":"identity-service","timestamp":"2025-10-10T16:59:49.857Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/login","service":"identity-service","timestamp":"2025-10-10T17:24:16.609Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"identity-service","timestamp":"2025-10-10T17:24:16.610Z"}
+{"level":"info","message":"Login endpoint hits...","service":"identity-service","timestamp":"2025-10-10T17:24:16.612Z"}
+{"level":"info","message":"Identity Service is Running at PORT:3001","service":"identity-service","timestamp":"2025-10-10T19:08:03.498Z"}
+{"level":"info","message":"Connect to redis","service":"identity-service","timestamp":"2025-10-10T19:08:03.504Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"identity-service","timestamp":"2025-10-10T19:08:04.422Z"}

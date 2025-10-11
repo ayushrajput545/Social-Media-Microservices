@@ -8,12 +8,13 @@ const rateLimit = require('express-rate-limit')
 const {RedisStore} = require('rate-limit-redis')
 const postRoutes = require('./routes/post-routes')
 const errorHandler = require('./middleware/errorHandler')
-const logger = require('./utils/logger')
+const logger = require('./utils/logger');
+const {connectionRabbitMQ} = require('./utils/rabbitmq');
 
 const app = express();
 const PORT = process.env.PORT || 3002
 const redisClient = new Redis(process.env.REDIS_URL)
-redisClient.on("connect", () => console.log("Redis connected ✅"));
+redisClient.on("connect", () => logger.info("Redis connected ✅"));
 redisClient.on("error", (err) => console.error("Redis error ❌:", err.message));
 
 //db connect
@@ -60,10 +61,21 @@ app.use('/api/posts',  (req,res,next)=>{ //Adds the redisClient to every request
 app.use(errorHandler)
 
 
+async function startServer(){
+    try{
+        await connectionRabbitMQ();
+        app.listen(PORT , ()=>{
+          logger.info(`Post Service is Running at PORT:${PORT}`)
+        })
+
+    }
+    catch(err){
+        logger.error('Failed to connect Server',err)
+        process.exit(1)
+    }
+}
 //listen server
-app.listen(PORT , ()=>{
-    logger.info(`Post Service is Running at PORT:${PORT}`)
-})
+startServer();
 
 //unhandled promise rejection
 process.on('unhandledRejection',(reason , promise)=>{

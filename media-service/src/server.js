@@ -9,7 +9,8 @@ const logger = require('./utils/logger')
 const Redis = require('ioredis')
 const {RedisStore} = require('rate-limit-redis');
 const errorHandler = require('./middleware/errorHandler');
-const rateLimit = require('express-rate-limit')
+const rateLimit = require('express-rate-limit');
+const { connectionRabbitMQ } = require('./utils/rabbitmq');
 
 const app = express();
 const PORT = process.env.PORT || 3003
@@ -59,9 +60,21 @@ app.use('/api/media',mediaRoutes);
 app.use(errorHandler)
 
 //listen server
-app.listen(PORT , ()=>{
-    logger.info(`Media Service is Running at PORT:${PORT}`)
-})
+async function startServer(){
+    try{
+        await connectionRabbitMQ();
+        app.listen(PORT , ()=>{
+          logger.info(`Media Service is Running at PORT:${PORT}`)
+        })
+
+    }
+    catch(err){
+        logger.error('Failed to connect Server',err)
+        process.exit(1)
+    }
+}
+//listen server
+startServer();
 
 //unhandled promise rejection
 process.on('unhandledRejection',(reason , promise)=>{

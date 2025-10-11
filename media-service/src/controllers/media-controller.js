@@ -2,6 +2,7 @@ const { config } = require('dotenv');
 const logger = require('../utils/logger');
 const { uploadMediaToCloudinary } = require('../utils/mediaUploader');
 require('dotenv').config();
+const Media = require('../models/Media')
 
 exports.uploadMedia = async(req,res)=>{
     logger.info("Media endpoints hits...")
@@ -13,10 +14,10 @@ exports.uploadMedia = async(req,res)=>{
             })
         }
 
-        const {originalName ,mimeType , buffer  }=req.file;
+        const {originalname ,mimetype , buffer  }=req.file;
         const userId = req.user.userId;
 
-        logger.info(`File details: name=${originalName} , type=${mimeType}`);
+        logger.info(`File details: name=${originalname} , type=${mimetype}`);
         logger.info(`Uploading to cloudinary starting...`);
 
         const cloudinaryUploadResult = await uploadMediaToCloudinary(req.file , process.env.FOLDER_NAME , 1000 ,1000)
@@ -24,8 +25,8 @@ exports.uploadMedia = async(req,res)=>{
 
         const newlyCreatedMedia= await Media.create({
             publicId: cloudinaryUploadResult.public_id,
-            originalName,
-            mimeType,
+            originalName:originalname,
+            mimeType:mimetype,
             url:cloudinaryUploadResult.secure_url,
             userId
         })
@@ -42,7 +43,7 @@ exports.uploadMedia = async(req,res)=>{
         logger.error("Error Occured while media uploading...")
         return res.status(500).json({
             success:false,
-            message:"Internal server error",
+            message:"Internal server error while uploading media to cloudinary...",
             error: err.message
         })
     }

@@ -526,3 +526,260 @@
 {"level":"info","message":"Get all Post Endpoint hits...","service":"post-service","timestamp":"2025-10-07T16:09:03.343Z"}
 {"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-07T18:06:06.066Z"}
 {"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-07T18:06:07.065Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T17:02:25.586Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T17:02:26.599Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T17:02:38.943Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T17:02:39.778Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T17:02:40.386Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T17:02:41.113Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T17:02:46.610Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T17:02:47.396Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T17:02:52.106Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T17:02:52.782Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T17:03:02.029Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T17:03:02.700Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T17:03:04.785Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T17:03:05.598Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T17:03:16.498Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T17:03:17.286Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-10-10T17:24:38.136Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-10T17:24:38.138Z"}
+{"level":"info","message":"Create Post Endpoints Hits...","service":"post-service","timestamp":"2025-10-10T17:24:38.148Z"}
+{"0":"\"","1":"m","10":" ","11":"m","12":"u","13":"s","14":"t","15":" ","16":"b","17":"e","18":" ","19":"a","2":"e","20":"n","21":" ","22":"a","23":"r","24":"r","25":"a","26":"y","3":"d","4":"i","5":"a","6":"I","7":"d","8":"s","9":"\"","level":"warn","message":"Validation Error","service":"post-service","timestamp":"2025-10-10T17:24:38.158Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-10-10T17:25:03.929Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-10T17:25:03.929Z"}
+{"level":"info","message":"Create Post Endpoints Hits...","service":"post-service","timestamp":"2025-10-10T17:25:03.930Z"}
+{"0":"\"","1":"m","10":" ","11":"m","12":"u","13":"s","14":"t","15":" ","16":"b","17":"e","18":" ","19":"a","2":"e","20":"n","21":" ","22":"a","23":"r","24":"r","25":"a","26":"y","3":"d","4":"i","5":"a","6":"I","7":"d","8":"s","9":"\"","level":"warn","message":"Validation Error","service":"post-service","timestamp":"2025-10-10T17:25:03.930Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-10-10T17:25:24.963Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-10T17:25:24.964Z"}
+{"level":"info","message":"Create Post Endpoints Hits...","service":"post-service","timestamp":"2025-10-10T17:25:24.965Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/getall-posts","service":"post-service","timestamp":"2025-10-10T17:26:31.534Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-10T17:26:31.535Z"}
+{"level":"info","message":"Get all Post Endpoint hits...","service":"post-service","timestamp":"2025-10-10T17:26:31.536Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:13:23.017Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:13:23.021Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:13:23.776Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:13:48.039Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:13:48.050Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:13:48.052Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:13:48.875Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:29:16.038Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:29:16.051Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:29:16.053Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:29:16.997Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:30:00.504Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:30:00.518Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:30:00.520Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:30:01.476Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:30:07.347Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:30:07.384Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:30:07.389Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:30:08.213Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:30:14.233Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:30:14.246Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:30:14.247Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:30:14.998Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:30:18.068Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:30:18.083Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:30:18.085Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:30:18.960Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:30:22.394Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:30:22.406Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:30:22.407Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:30:23.159Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:30:24.292Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:30:24.306Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:30:24.308Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:30:24.957Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:30:30.916Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:30:30.929Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:30:30.931Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:30:31.555Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:30:34.497Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:30:34.510Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:30:34.513Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:30:35.115Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:30:37.357Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:30:37.398Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:30:37.400Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:30:37.987Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:30:40.220Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:30:40.237Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:30:40.240Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:30:40.879Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:30:51.666Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:30:51.678Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:30:51.680Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:30:52.360Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:30:59.936Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:30:59.949Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:30:59.951Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:31:00.673Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:31:06.122Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:31:06.137Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:31:06.139Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:31:06.756Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:31:09.880Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:31:09.896Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:31:09.898Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:31:10.623Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:31:11.398Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:31:11.411Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:31:11.414Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:31:12.057Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:31:16.416Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:31:16.428Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:31:16.430Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:31:17.316Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:31:22.891Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:31:22.907Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:31:22.909Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:31:23.692Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:31:27.601Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:31:27.612Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:31:27.614Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:31:28.361Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:31:35.833Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:31:35.844Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:31:35.846Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:31:36.596Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:31:39.549Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:31:39.561Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:31:39.564Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:31:40.209Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:31:45.132Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:31:45.143Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:31:45.145Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:31:45.815Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:32:14.724Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:32:14.737Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:32:14.739Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:32:15.356Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:36:42.024Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:36:42.038Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:36:42.040Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:36:42.991Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:36:50.613Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:36:50.626Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:36:50.628Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:36:51.391Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:37:01.958Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:37:01.971Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:37:01.973Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:37:02.651Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:37:04.142Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:37:04.154Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:37:04.155Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:37:04.802Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:37:12.274Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:37:12.288Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:37:12.290Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:37:12.967Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:37:16.823Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:37:16.836Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:37:16.837Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:37:17.510Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:37:25.966Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:37:25.982Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:37:25.984Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:37:26.627Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:37:27.387Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:37:27.401Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:37:27.403Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:37:28.349Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:37:29.113Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:37:29.127Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:37:29.129Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:37:29.772Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:37:34.560Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:37:34.572Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:37:34.574Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:37:35.270Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:37:40.681Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:37:40.694Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:37:40.696Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:37:41.330Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:39:12.362Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:39:12.376Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:39:12.377Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:39:13.307Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:39:21.575Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:39:21.590Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:39:21.592Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:39:22.445Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:39:25.518Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:39:25.532Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:39:25.534Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:39:26.154Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:39:29.359Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:39:29.371Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:39:29.373Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:39:30.347Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:39:33.958Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:39:33.970Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:39:33.972Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:39:34.628Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:39:51.857Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:39:51.872Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:39:51.873Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:39:52.485Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:39:59.980Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:40:00.023Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:40:00.025Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:40:00.751Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:40:03.881Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:40:03.931Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:40:03.933Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:40:04.549Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:40:05.501Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:40:05.516Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:40:05.518Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:40:06.129Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:40:16.342Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:40:16.354Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:40:16.356Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:40:17.130Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:40:18.405Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:40:18.420Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:40:18.422Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:40:19.028Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:40:20.153Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:40:20.166Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:40:20.168Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:40:20.805Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:40:28.328Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:40:28.339Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:40:28.341Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:40:28.949Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:40:32.195Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:40:32.206Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:40:32.208Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:40:32.785Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:40:36.398Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:40:36.411Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:40:36.413Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:40:37.007Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:40:40.225Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:40:40.277Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:40:40.279Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:40:40.867Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:40:44.986Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:40:45.003Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:40:45.004Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:40:45.851Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:40:46.508Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:40:46.520Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:40:46.522Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:40:47.158Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:40:59.294Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:40:59.308Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:40:59.310Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:40:59.922Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T18:48:52.613Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T18:48:52.626Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T18:48:52.628Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T18:48:53.228Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-10T19:08:03.150Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T19:08:03.165Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T19:08:03.167Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T19:08:04.262Z"}

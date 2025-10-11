@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 const mediaSchema = new mongoose.Schema({
-    publicId:{
+    publicId:{  // we need this to delete media from cloudinary
         type:String,
         required:true
     },

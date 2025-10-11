@@ -21,3 +21,8 @@
 {"level":"error","message":"Error Ocurred while verifying token","service":"api-gateway","timestamp":"2025-10-07T16:06:09.331Z"}
 {"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-10-07T16:06:29.223Z"}
 {"level":"error","message":"Invalid Token","service":"api-gateway","timestamp":"2025-10-07T16:08:06.416Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-10-08T18:41:17.694Z"}
+{"level":"error","message":"Error Ocurred while verifying token","service":"api-gateway","timestamp":"2025-10-08T18:42:43.720Z"}
+{"level":"error","message":"Proxy error: Cannot read properties of undefined (reading 'startsWith')","service":"api-gateway","timestamp":"2025-10-08T18:43:45.015Z"}
+{"level":"error","message":"Invalid Token","service":"api-gateway","timestamp":"2025-10-10T16:59:58.954Z"}
+{"level":"error","message":"Invalid Token","service":"api-gateway","timestamp":"2025-10-10T17:23:46.533Z"}

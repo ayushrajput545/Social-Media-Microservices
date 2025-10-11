@@ -1,5 +1,6 @@
 const Post = require('../models/Post')
 const logger = require('../utils/logger');
+const { publishEvent } = require('../utils/rabbitmq');
 const { validationCreatePost } = require('../utils/validations');
 
 
@@ -145,6 +146,13 @@ exports.deletePost = async(req,res)=>{
                 message:"Post Not Found"
             })
         }
+
+        //publish Event: Here we publish event via rabbitmq this event is consume by the media service to delete media
+        await publishEvent("post.deleted", {
+            postId: post._id.toString(),
+            userId: req.user.userId,
+            mediaIds: post.mediaIds,
+        })
 
         await invalidatePostCache(req, postId)
 
