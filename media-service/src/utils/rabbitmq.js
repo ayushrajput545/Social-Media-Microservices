@@ -43,7 +43,7 @@ async function consumeEvent(routingKey , callback){
         }
     })
 
-    logger.info(`Subscribed the event: `, routingKey)
+    logger.info(`Subscribed the event: `, routingKey) 
 }
 
 module.exports = {connectionRabbitMQ , publishEvent ,consumeEvent};

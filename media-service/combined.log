@@ -223,3 +223,64 @@
 {"level":"info","message":"Connected to rabbit mq","service":"media-service","timestamp":"2025-10-11T09:50:39.985Z"}
 {"level":"info","message":"Media Service is Running at PORT:3003","service":"media-service","timestamp":"2025-10-11T09:50:39.991Z"}
 {"level":"info","message":"DB CONNECTION SUCESSFULL","service":"media-service","timestamp":"2025-10-11T09:50:40.780Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"media-service","timestamp":"2025-10-11T09:59:33.752Z"}
+{"0":"p","1":"o","10":"e","11":"d","2":"s","3":"t","4":".","5":"d","6":"e","7":"l","8":"e","9":"t","level":"info","message":"Subscribed the event: ","service":"media-service","timestamp":"2025-10-11T09:59:33.771Z"}
+{"level":"info","message":"Media Service is Running at PORT:3003","service":"media-service","timestamp":"2025-10-11T09:59:33.775Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"media-service","timestamp":"2025-10-11T09:59:34.672Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"media-service","timestamp":"2025-10-11T09:59:53.980Z"}
+{"0":"p","1":"o","10":"e","11":"d","2":"s","3":"t","4":".","5":"d","6":"e","7":"l","8":"e","9":"t","level":"info","message":"Subscribed the event: ","service":"media-service","timestamp":"2025-10-11T09:59:54.017Z"}
+{"level":"info","message":"Media Service is Running at PORT:3003","service":"media-service","timestamp":"2025-10-11T09:59:54.019Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"media-service","timestamp":"2025-10-11T09:59:54.702Z"}
+{"level":"info","message":"Recieved POST request to /api/media/upload-media","service":"media-service","timestamp":"2025-10-11T10:04:01.194Z"}
+{"level":"info","message":"Request Body, undefined","service":"media-service","timestamp":"2025-10-11T10:04:01.196Z"}
+{"level":"info","message":"Media endpoints hits...","service":"media-service","timestamp":"2025-10-11T10:04:01.223Z"}
+{"level":"info","message":"File details: name=testimg.jpg , type=image/jpeg","service":"media-service","timestamp":"2025-10-11T10:04:01.224Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-10-11T10:04:01.225Z"}
+{"level":"info","message":"Starting Cloudinary upload stream...","service":"media-service","timestamp":"2025-10-11T10:04:01.226Z"}
+{"level":"info","message":"✅ Cloudinary upload successful! Public ID: StudyNotion/py0bepk2ntrrq1kuutuz","service":"media-service","timestamp":"2025-10-11T10:04:05.513Z"}
+{"level":"info","message":"Clodinary Upload Successful. Public Id:-StudyNotion/py0bepk2ntrrq1kuutuz","service":"media-service","timestamp":"2025-10-11T10:04:05.516Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"media-service","timestamp":"2025-10-11T10:14:36.119Z"}
+{"0":"p","1":"o","10":"e","11":"d","2":"s","3":"t","4":".","5":"d","6":"e","7":"l","8":"e","9":"t","level":"info","message":"Subscribed the event: ","service":"media-service","timestamp":"2025-10-11T10:14:36.133Z"}
+{"level":"info","message":"Media Service is Running at PORT:3003","service":"media-service","timestamp":"2025-10-11T10:14:36.136Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"media-service","timestamp":"2025-10-11T10:14:37.423Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"media-service","timestamp":"2025-10-11T10:14:39.492Z"}
+{"0":"p","1":"o","10":"e","11":"d","2":"s","3":"t","4":".","5":"d","6":"e","7":"l","8":"e","9":"t","level":"info","message":"Subscribed the event: ","service":"media-service","timestamp":"2025-10-11T10:14:39.504Z"}
+{"level":"info","message":"Media Service is Running at PORT:3003","service":"media-service","timestamp":"2025-10-11T10:14:39.507Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"media-service","timestamp":"2025-10-11T10:14:40.566Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"media-service","timestamp":"2025-10-11T10:20:46.697Z"}
+{"0":"p","1":"o","10":"e","11":"d","2":"s","3":"t","4":".","5":"d","6":"e","7":"l","8":"e","9":"t","level":"info","message":"Subscribed the event: ","service":"media-service","timestamp":"2025-10-11T10:20:46.712Z"}
+{"level":"info","message":"Media Service is Running at PORT:3003","service":"media-service","timestamp":"2025-10-11T10:20:46.715Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"media-service","timestamp":"2025-10-11T10:20:47.812Z"}
+{"level":"info","message":"Recieved POST request to /api/media/upload-media","service":"media-service","timestamp":"2025-10-11T10:20:52.195Z"}
+{"level":"info","message":"Request Body, undefined","service":"media-service","timestamp":"2025-10-11T10:20:52.196Z"}
+{"level":"info","message":"Media endpoints hits...","service":"media-service","timestamp":"2025-10-11T10:20:52.206Z"}
+{"level":"info","message":"File details: name=testimg.jpg , type=image/jpeg","service":"media-service","timestamp":"2025-10-11T10:20:52.206Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-10-11T10:20:52.207Z"}
+{"level":"info","message":"Starting Cloudinary upload stream...","service":"media-service","timestamp":"2025-10-11T10:20:52.207Z"}
+{"level":"info","message":"✅ Cloudinary upload successful! Public ID: StudyNotion/zmarm8i7ocavmnkv5uq7","service":"media-service","timestamp":"2025-10-11T10:20:55.310Z"}
+{"level":"info","message":"Clodinary Upload Successful. Public Id:-StudyNotion/zmarm8i7ocavmnkv5uq7","service":"media-service","timestamp":"2025-10-11T10:20:55.314Z"}
+{"0":"S","1":"t","10":"n","11":"/","12":"z","13":"m","14":"a","15":"r","16":"m","17":"8","18":"i","19":"7","2":"u","20":"o","21":"c","22":"a","23":"v","24":"m","25":"n","26":"k","27":"v","28":"5","29":"u","3":"d","30":"q","31":"7","4":"y","5":"N","6":"o","7":"t","8":"i","9":"o","level":"info","message":"Media deleted successfully from cloud storage","service":"media-service","timestamp":"2025-10-11T10:22:06.623Z"}
+{"level":"info","message":"Deleted media 68ea2f87d2c05ebfaab3f946 associated with deleted post 68ea2f9e44b8995069294c80","service":"media-service","timestamp":"2025-10-11T10:22:06.688Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"media-service","timestamp":"2025-10-11T10:24:20.015Z"}
+{"0":"p","1":"o","10":"e","11":"d","2":"s","3":"t","4":".","5":"d","6":"e","7":"l","8":"e","9":"t","level":"info","message":"Subscribed the event: ","service":"media-service","timestamp":"2025-10-11T10:24:20.027Z"}
+{"level":"info","message":"Media Service is Running at PORT:3003","service":"media-service","timestamp":"2025-10-11T10:24:20.030Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"media-service","timestamp":"2025-10-11T10:24:20.992Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"media-service","timestamp":"2025-10-11T10:24:28.941Z"}
+{"0":"p","1":"o","10":"e","11":"d","2":"s","3":"t","4":".","5":"d","6":"e","7":"l","8":"e","9":"t","level":"info","message":"Subscribed the event: ","service":"media-service","timestamp":"2025-10-11T10:24:28.959Z"}
+{"level":"info","message":"Media Service is Running at PORT:3003","service":"media-service","timestamp":"2025-10-11T10:24:28.962Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"media-service","timestamp":"2025-10-11T10:24:29.813Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"media-service","timestamp":"2025-10-11T10:24:30.707Z"}
+{"0":"p","1":"o","10":"e","11":"d","2":"s","3":"t","4":".","5":"d","6":"e","7":"l","8":"e","9":"t","level":"info","message":"Subscribed the event: ","service":"media-service","timestamp":"2025-10-11T10:24:30.720Z"}
+{"level":"info","message":"Media Service is Running at PORT:3003","service":"media-service","timestamp":"2025-10-11T10:24:30.723Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"media-service","timestamp":"2025-10-11T10:24:31.894Z"}
+{"0":"p","1":"o","10":"e","11":"d","2":"s","3":"t","4":".","5":"d","6":"e","7":"l","8":"e","9":"t","level":"info","message":"Subscribed the event: ","service":"media-service","timestamp":"2025-10-11T10:24:31.913Z"}
+{"level":"info","message":"Media Service is Running at PORT:3003","service":"media-service","timestamp":"2025-10-11T10:24:31.916Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"media-service","timestamp":"2025-10-11T10:24:32.850Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"media-service","timestamp":"2025-10-11T10:24:46.534Z"}
+{"0":"p","1":"o","10":"e","11":"d","2":"s","3":"t","4":".","5":"d","6":"e","7":"l","8":"e","9":"t","level":"info","message":"Subscribed the event: ","service":"media-service","timestamp":"2025-10-11T10:24:46.545Z"}
+{"level":"info","message":"Media Service is Running at PORT:3003","service":"media-service","timestamp":"2025-10-11T10:24:46.548Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"media-service","timestamp":"2025-10-11T10:24:47.645Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"media-service","timestamp":"2025-10-11T10:24:56.038Z"}
+{"0":"p","1":"o","10":"e","11":"d","2":"s","3":"t","4":".","5":"d","6":"e","7":"l","8":"e","9":"t","level":"info","message":"Subscribed the event: ","service":"media-service","timestamp":"2025-10-11T10:24:56.080Z"}
+{"level":"info","message":"Media Service is Running at PORT:3003","service":"media-service","timestamp":"2025-10-11T10:24:56.082Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"media-service","timestamp":"2025-10-11T10:24:56.720Z"}

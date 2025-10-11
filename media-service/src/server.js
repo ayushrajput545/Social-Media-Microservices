@@ -10,7 +10,8 @@ const Redis = require('ioredis')
 const {RedisStore} = require('rate-limit-redis');
 const errorHandler = require('./middleware/errorHandler');
 const rateLimit = require('express-rate-limit');
-const { connectionRabbitMQ } = require('./utils/rabbitmq');
+const { connectionRabbitMQ, consumeEvent } = require('./utils/rabbitmq');
+const { handlePostDeleted } = require('./eventHandlers/media-event-hanlder');
 
 const app = express();
 const PORT = process.env.PORT || 3003
@@ -63,6 +64,9 @@ app.use(errorHandler)
 async function startServer(){
     try{
         await connectionRabbitMQ();
+        
+        //consume events
+        await consumeEvent('post.deleted' , handlePostDeleted) // pass  routeringKey same as post service , call a event hanlder 
         app.listen(PORT , ()=>{
           logger.info(`Media Service is Running at PORT:${PORT}`)
         })
