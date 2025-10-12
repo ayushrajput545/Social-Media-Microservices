@@ -284,3 +284,11 @@
 {"0":"p","1":"o","10":"e","11":"d","2":"s","3":"t","4":".","5":"d","6":"e","7":"l","8":"e","9":"t","level":"info","message":"Subscribed the event: ","service":"media-service","timestamp":"2025-10-11T10:24:56.080Z"}
 {"level":"info","message":"Media Service is Running at PORT:3003","service":"media-service","timestamp":"2025-10-11T10:24:56.082Z"}
 {"level":"info","message":"DB CONNECTION SUCESSFULL","service":"media-service","timestamp":"2025-10-11T10:24:56.720Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"media-service","timestamp":"2025-10-11T10:25:17.244Z"}
+{"0":"p","1":"o","10":"e","11":"d","2":"s","3":"t","4":".","5":"d","6":"e","7":"l","8":"e","9":"t","level":"info","message":"Subscribed the event: ","service":"media-service","timestamp":"2025-10-11T10:25:17.292Z"}
+{"level":"info","message":"Media Service is Running at PORT:3003","service":"media-service","timestamp":"2025-10-11T10:25:17.295Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"media-service","timestamp":"2025-10-11T10:25:17.953Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"media-service","timestamp":"2025-10-11T11:17:09.422Z"}
+{"0":"p","1":"o","10":"e","11":"d","2":"s","3":"t","4":".","5":"d","6":"e","7":"l","8":"e","9":"t","level":"info","message":"Subscribed the event: ","service":"media-service","timestamp":"2025-10-11T11:17:09.432Z"}
+{"level":"info","message":"Media Service is Running at PORT:3003","service":"media-service","timestamp":"2025-10-11T11:17:09.434Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"media-service","timestamp":"2025-10-11T11:17:10.345Z"}

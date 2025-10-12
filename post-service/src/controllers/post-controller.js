@@ -36,6 +36,16 @@ exports.createPost = async(req,res)=>{
         })
 
         await newPost.save();
+        
+        //publish Event: consumed by the search service
+        await publishEvent('post.created' , {
+            postId:newPost._id.toString(),
+            userId:newPost.user.toString(),
+            content:newPost.content,
+            createdAt:newPost.createdAt
+        })
+
+
         await invalidatePostCache(req , newPost._id.toString()) // every time you delete the post from redis when newly post is created
 
         return res.status(201).json({

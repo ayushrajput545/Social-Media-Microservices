@@ -783,3 +783,37 @@
 {"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-10T19:08:03.165Z"}
 {"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-10T19:08:03.167Z"}
 {"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-10T19:08:04.262Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-11T09:59:44.918Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-11T09:59:44.935Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-11T09:59:44.938Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-11T09:59:45.980Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-10-11T10:04:47.531Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-11T10:04:47.532Z"}
+{"level":"info","message":"Create Post Endpoints Hits...","service":"post-service","timestamp":"2025-10-11T10:04:47.541Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/getall-posts","service":"post-service","timestamp":"2025-10-11T10:05:15.072Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-11T10:05:15.073Z"}
+{"level":"info","message":"Get all Post Endpoint hits...","service":"post-service","timestamp":"2025-10-11T10:05:15.075Z"}
+{"level":"info","message":"Recieved DELETE request to /api/posts/68ea2bbf44b8995069294c77","service":"post-service","timestamp":"2025-10-11T10:07:35.971Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-11T10:07:35.972Z"}
+{"level":"info","message":"Delete endpoint hits...","service":"post-service","timestamp":"2025-10-11T10:07:35.974Z"}
+{"level":"info","message":"Event published: post.deleted","service":"post-service","timestamp":"2025-10-11T10:07:36.058Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/getall-posts","service":"post-service","timestamp":"2025-10-11T10:07:44.716Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-11T10:07:44.716Z"}
+{"level":"info","message":"Get all Post Endpoint hits...","service":"post-service","timestamp":"2025-10-11T10:07:44.717Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-10-11T10:20:20.075Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-11T10:20:20.076Z"}
+{"level":"info","message":"Create Post Endpoints Hits...","service":"post-service","timestamp":"2025-10-11T10:20:20.079Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-10-11T10:21:18.481Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-11T10:21:18.481Z"}
+{"level":"info","message":"Create Post Endpoints Hits...","service":"post-service","timestamp":"2025-10-11T10:21:18.484Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/getall-posts","service":"post-service","timestamp":"2025-10-11T10:21:41.176Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-11T10:21:41.177Z"}
+{"level":"info","message":"Get all Post Endpoint hits...","service":"post-service","timestamp":"2025-10-11T10:21:41.177Z"}
+{"level":"info","message":"Recieved DELETE request to /api/posts/68ea2f9e44b8995069294c80","service":"post-service","timestamp":"2025-10-11T10:22:04.539Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-11T10:22:04.540Z"}
+{"level":"info","message":"Delete endpoint hits...","service":"post-service","timestamp":"2025-10-11T10:22:04.544Z"}
+{"level":"info","message":"Event published: post.deleted","service":"post-service","timestamp":"2025-10-11T10:22:04.615Z"}
+{"level":"info","message":"Redis connected ✅","service":"post-service","timestamp":"2025-10-11T11:17:09.328Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-11T11:17:09.344Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-11T11:17:09.346Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-11T11:17:10.417Z"}
