@@ -30,3 +30,5 @@
 {"level":"error","message":"Invalid Token","service":"api-gateway","timestamp":"2025-10-11T10:03:38.537Z"}
 {"level":"error","message":"Invalid Token","service":"api-gateway","timestamp":"2025-10-11T10:04:54.010Z"}
 {"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-10-11T10:20:36.030Z"}
+{"level":"error","message":"Error Ocurred while verifying token","service":"api-gateway","timestamp":"2025-10-12T18:24:33.949Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-10-12T18:25:34.587Z"}
