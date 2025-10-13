@@ -817,3 +817,27 @@
 {"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-11T11:17:09.344Z"}
 {"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-11T11:17:09.346Z"}
 {"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-11T11:17:10.417Z"}
+{"level":"info","message":"Redis connected","service":"post-service","timestamp":"2025-10-12T18:27:44.370Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-12T18:27:44.387Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-12T18:27:44.390Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-12T18:27:45.288Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-10-12T18:28:07.513Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-12T18:28:07.515Z"}
+{"level":"info","message":"Create Post Endpoints Hits...","service":"post-service","timestamp":"2025-10-12T18:28:07.527Z"}
+{"level":"info","message":"Event published: post.created","service":"post-service","timestamp":"2025-10-12T18:28:07.637Z"}
+{"level":"info","message":"Redis connected","service":"post-service","timestamp":"2025-10-12T18:47:25.854Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-12T18:47:25.866Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-12T18:47:25.868Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-12T18:47:26.822Z"}
+{"level":"info","message":"Redis connected","service":"post-service","timestamp":"2025-10-12T18:53:58.298Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-12T18:53:58.312Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-12T18:53:58.314Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-12T18:53:59.127Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-10-12T18:54:09.098Z"}
+{"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-12T18:54:09.148Z"}
+{"level":"info","message":"Create Post Endpoints Hits...","service":"post-service","timestamp":"2025-10-12T18:54:09.160Z"}
+{"level":"info","message":"Event published: post.created","service":"post-service","timestamp":"2025-10-12T18:54:09.268Z"}
+{"level":"info","message":"Redis connected","service":"post-service","timestamp":"2025-10-12T19:02:02.328Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-12T19:02:02.360Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-12T19:02:02.363Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-12T19:02:03.421Z"}
