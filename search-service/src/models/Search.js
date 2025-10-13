@@ -10,7 +10,7 @@ const searchSchema = new mongoose.Schema({
     userId:{
         type:String,
         required:true,
-        unique:true
+        index:true
     },
     content:{  // we search post based on content
         type:String,

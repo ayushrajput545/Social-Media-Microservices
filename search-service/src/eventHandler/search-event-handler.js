@@ -21,3 +21,18 @@ exports.handleCreatePost = async(event)=>{ // use/consume this handler in server
     }
 
 }
+
+exports.hanldeDeletePost = async(event)=>{
+    console.log(event)
+    try{
+        const{postId , userId} = event;
+        await Search.findOneAndDelete({postId:postId});
+
+        logger.info(`Post deleted successfully from Search`);
+
+    }
+    catch(err){
+        console.log("Error occurres while deleting search post: ", err);
+
+    }
+}

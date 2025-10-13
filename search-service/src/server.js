@@ -1,6 +1,5 @@
 require('dotenv').config();
 const express = require('express');
-const dbConnect = require('./config/db');
 const helmet = require('helmet')
 const cors = require('cors')
 const Redis = require('ioredis')
@@ -10,16 +9,18 @@ const searchRoutes = require('./routes/search-route');
 const errorHandler = require('./middlewares/errorHandler');
 const {connectionRabbitMQ, consumeEvent} = require('./utils/rabbitmq')
 const logger = require('./utils/logger');
-const { handleCreatePost } = require('./eventHandler/search-event-handler');
+const { handleCreatePost, hanldeDeletePost } = require('./eventHandler/search-event-handler');
+const dbConnect = require('./config/db')
 
 const app = express();
-const PORT = process.env.PORT
+const PORT = process.env.PORT || 3004
 const redisClient = new Redis(process.env.REDIS_URL)
 redisClient.on("connect", () => logger.info("Redis connected"));
 redisClient.on("error", (err) => console.error("Redis error :", err.message));
 
 //dbconnect
-dbConnect();
+console.log("dbConnect file loaded");
+dbConnect()
 
 //middleware
 app.use(helmet());
@@ -61,6 +62,7 @@ async function startServer(){
         await connectionRabbitMQ();
         //consume event
         await consumeEvent('post.created',handleCreatePost)
+        await consumeEvent('post.deleted', hanldeDeletePost)
         app.listen(PORT , ()=>{
           logger.info(`Search Service is Running at PORT:${PORT}`)
         })
@@ -74,3 +76,7 @@ async function startServer(){
 //listen server
 startServer();
 
+//unhandled promise rejection
+process.on('unhandledRejection',(reason , promise)=>{
+    logger.error('Unhandled Rejection at:', promise , "reason:" , reason)
+})
