@@ -935,3 +935,7 @@
 {"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-13T11:54:09.169Z"}
 {"level":"info","message":"Create Post Endpoints Hits...","service":"post-service","timestamp":"2025-10-13T11:54:09.170Z"}
 {"level":"info","message":"Event published: post.created","service":"post-service","timestamp":"2025-10-13T11:54:09.233Z"}
+{"level":"info","message":"Redis connected","service":"post-service","timestamp":"2025-10-13T14:01:52.483Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-13T14:01:52.494Z"}
+{"level":"info","message":"Post Service is Running at PORT:3002","service":"post-service","timestamp":"2025-10-13T14:01:52.496Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-13T14:01:54.262Z"}

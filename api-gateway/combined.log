@@ -514,3 +514,9 @@
 {"level":"info","message":"Recieved GET request to /v1/search/search-post?query=fir","service":"api-gateway","timestamp":"2025-10-13T11:54:14.091Z"}
 {"level":"info","message":"Request Body, undefined","service":"api-gateway","timestamp":"2025-10-13T11:54:14.092Z"}
 {"level":"info","message":"Response received from Search Service:200","service":"api-gateway","timestamp":"2025-10-13T11:54:14.177Z"}
+{"level":"info","message":"Api Gateway is running at PORT:3000","service":"api-gateway","timestamp":"2025-10-13T14:01:52.269Z"}
+{"level":"info","message":"Identity Service is running at PORT:http://localhost:3001","service":"api-gateway","timestamp":"2025-10-13T14:01:52.273Z"}
+{"level":"info","message":"Post Service is running at PORT:http://localhost:3002","service":"api-gateway","timestamp":"2025-10-13T14:01:52.273Z"}
+{"level":"info","message":"Media Service is running at PORT:http://localhost:3003","service":"api-gateway","timestamp":"2025-10-13T14:01:52.274Z"}
+{"level":"info","message":"Search Service is running at PORT:http://localhost:3004","service":"api-gateway","timestamp":"2025-10-13T14:01:52.274Z"}
+{"level":"info","message":"Redis URL:redis://localhost:6379","service":"api-gateway","timestamp":"2025-10-13T14:01:52.275Z"}

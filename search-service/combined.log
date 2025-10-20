@@ -264,3 +264,9 @@
 {"level":"info","message":"Recieved GET request to /api/search/search-post?query=fir","service":"post-service","timestamp":"2025-10-13T11:54:14.099Z"}
 {"level":"info","message":"Request Body, [object Object]","service":"post-service","timestamp":"2025-10-13T11:54:14.102Z"}
 {"level":"info","message":"Search endpoints hits...","service":"post-service","timestamp":"2025-10-13T11:54:14.105Z"}
+{"level":"info","message":"Redis connected","service":"post-service","timestamp":"2025-10-13T14:01:52.447Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-10-13T14:01:52.459Z"}
+{"0":"p","1":"o","10":"e","11":"d","2":"s","3":"t","4":".","5":"c","6":"r","7":"e","8":"a","9":"t","level":"info","message":"Subscribed the event: ","service":"post-service","timestamp":"2025-10-13T14:01:52.480Z"}
+{"0":"p","1":"o","10":"e","11":"d","2":"s","3":"t","4":".","5":"d","6":"e","7":"l","8":"e","9":"t","level":"info","message":"Subscribed the event: ","service":"post-service","timestamp":"2025-10-13T14:01:52.493Z"}
+{"level":"info","message":"Search Service is Running at PORT:3004","service":"post-service","timestamp":"2025-10-13T14:01:52.495Z"}
+{"level":"info","message":"DB CONNECTION SUCESSFULL","service":"post-service","timestamp":"2025-10-13T14:01:54.293Z"}
